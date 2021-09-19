@@ -11,5 +11,5 @@ import { NotImplementedError } from '../extensions/index.js';
  *
  */
 export default function getEmailDomain(email) {
-  return email.match(/@([\w\.-]+)+$/)[1];
+  return email.match(/@([\w.-]+)+$/)[1];
 }
